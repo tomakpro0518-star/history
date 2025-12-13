@@ -87,7 +87,7 @@ class GitBuilder:
     def push(self):
         """todo"""
         print(self.branch)
-        command = f"git push -u origin {self.branch}"
+        command = f"git push -u origin {self.branch} --force" 
         print(command)
         os.system(command)
 
